@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 
 // Images from the public folder
 const images = [
-  '/public/img11.jpeg',
-  '/public/img21.jpeg',
-  '/public/img13.jpeg',
-  '/public/img14.jpeg',
-  '/public/img15.jpeg',
-  '/public/img16.jpeg',
+  '/img11.jpeg',
+  '/img21.jpeg',
+  '/img13.jpeg',
+  '/img14.jpeg',
+  '/img15.jpeg',
+  '/img16.jpeg',
 ];
 
 export default function HeroSection() {
