@@ -3,29 +3,29 @@ import { useState, useEffect } from "react";
 export default function NewsSection() {
   const updates = [
     {
-      src: "/public/n1.jpeg",
+      src: "/n1.jpeg",
       content:
         "Ratnam Sreekanth has been appointed as the SC Wing Telangana State Convenor by the Telangana Pradesh Congress Committee. He thanked Congress leaders Mallikarjun Kharge and Rahul Gandhi for the trust.",
     },
     {
-      src: "/public/n2.jpeg",
+      src: "/n2.jpeg",
       content:
         "Ratnam Srikant was appointed Telangana State SC Division Convenor by Congress, thanking leaders like Mallikarjun Karge and Rahul Gandhi..",
     },
     {
-      src: "/public/n3.jpeg",
+      src: "/n3.jpeg",
       content:"Ratnam Srikant from Malagurajala village has been appointed as the Telangana State SC Department Convenor. He thanked Congress leaders for their support in achieving this position."
     },
     {
-      src: "/public/n4.jpeg",
+      src: "/n4.jpeg",
       content:"MLC Dandepu Vital congratulated Ratnam Srikant, appointed as the Telangana State SC Wing Convenor by TPCC leadership."
     },
     {
-      src: "/public/n5.jpeg",
+      src: "/n5.jpeg",
       content:"MLC Dande Vithal congratulated Ratnam Srikant, who has been appointed as the Telangana State SC Wing Convenor by the TPCC. The appointment order was handed over to Srikant by SC Wing Chairman Preetham."
     },
     {
-      src: "/public/n6.jpeg",
+      src: "/n6.jpeg",
       content:"MLC Dandepu Vital congratulated Ratnam Srikant, appointed as the Telangana State SC Wing Convenor by TPCC leadership."
 
     },

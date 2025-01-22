@@ -35,12 +35,12 @@ const issues = [
 ];
 
 const images = [
-  '/public/img1.jpg',
-  '/public/imge2.jpg',
-  '/public/img4.jpg',
-  '/public/img5.jpg',
-  '/public/img6.jpg',
-  '/public/img7.jpg',
+  '/img1.jpg',
+  '/imge2.jpg',
+  '/img4.jpg',
+  '/img5.jpg',
+  '/img6.jpg',
+  '/img7.jpg',
 ];
 
 export default function KeyIssuesSection() {

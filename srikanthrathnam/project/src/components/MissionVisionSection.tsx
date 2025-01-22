@@ -1,10 +1,10 @@
 import { Target, Eye } from 'lucide-react';
 
 const images = [
-  '/public/m1.jpeg', '/public/m2.jpeg', '/public/m3.jpeg',
-  '/public/m4.jpeg', '/public/m5.jpeg', '/public/m6.jpeg',
-  '/public/m7.jpeg', '/public/m8.jpeg', '/public/m9.jpeg',
-  '/public/m10.jpeg', '/public/m11.jpeg', '/public/m12.jpeg',
+  '/m1.jpeg', '/m2.jpeg', '/m3.jpeg',
+  '/m4.jpeg', '/m5.jpeg', '/m6.jpeg',
+  '/m7.jpeg', '/m8.jpeg', '/m9.jpeg',
+  '/m10.jpeg', '/m11.jpeg', '/m12.jpeg',
 ];
 
 export default function MissionVisionSection() {

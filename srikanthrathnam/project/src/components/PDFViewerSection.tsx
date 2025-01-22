@@ -3,38 +3,38 @@ import { FileText } from 'lucide-react';
 const documents = [
   {
     title: 'Srikanth Profile',
-    src: '/public/Srikanthprofile.pdf', // Path for your local PDF
+    src: '/Srikanthprofile.pdf', // Path for your local PDF
   },
   {
     title: 'Srikanth Letter',
-    src: '/public/Srikanthletter.pdf', // Path for your local PDF
+    src: '/Srikanthletter.pdf', // Path for your local PDF
  
   },
 ];
 
 const images = [
   {
-    src: '/public/v1.jpeg', // Local image in public/images folder
+    src: '/v1.jpeg', // Local image in public/images folder
   },
   {
 
-    src: '/public/v2.jpeg', // Local image in public/images folder
+    src: '/v2.jpeg', // Local image in public/images folder
   },
   {
 
-    src:'/public/v3.jpeg', // Local image in public/images folder
+    src:'/v3.jpeg', // Local image in public/images folder
   },
   {
 
-    src:'/public/v4.jpeg', // Local image in public/images folder
+    src:'/v4.jpeg', // Local image in public/images folder
   },
   {
   
-    src: '/public/v5.jpeg', // Local image in public/images folder
+    src: '/v5.jpeg', // Local image in public/images folder
   },
   {
     
-    src:'/public/v1.jpeg', // Local image in public/images folder
+    src:'/v1.jpeg', // Local image in public/images folder
   },
 ];
 
