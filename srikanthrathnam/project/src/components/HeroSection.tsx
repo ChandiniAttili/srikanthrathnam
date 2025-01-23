@@ -1,13 +1,26 @@
+
 import { useState, useEffect } from 'react';
 
 // Images from the public folder
 const images = [
-  '/img11.jpeg',
-  '/img21.jpeg',
-  '/img13.jpeg',
-  '/img14.jpeg',
-  '/img15.jpeg',
-  '/img16.jpeg',
+  {
+    src: '/img15.jpeg',
+  },
+  {
+    src: '/img21.jpeg',
+  },
+  {
+    src: '/img13.jpeg',
+  },
+  {
+    src: '/img14.jpeg',
+  },
+  {
+    src: '/img11.jpeg',
+  },
+  {
+    src: '/img16.jpeg',
+  },
 ];
 
 export default function HeroSection() {
@@ -27,7 +40,7 @@ export default function HeroSection() {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Left Side Content */}
           <div className="lg:w-1/2 text-gray-800">
-            <h1 className="text-4xl font-bold mb-6 color-Green">
+            <h1 className="text-4xl font-bold mb-6 text-green-600">
               Srikanth Rathnam
             </h1>
             <p className="text-lg leading-relaxed mb-6">
@@ -41,13 +54,15 @@ export default function HeroSection() {
 
           {/* Right Side Image Carousel */}
           <div className="lg:w-1/2 relative mb-6">
-            <div className="w-[600px] h-[600px] mx-auto rounded-lg shadow-lg overflow-hidden">
+            <div className="w-[600px] h-[600px] mx-auto rounded-lg shadow-lg overflow-hidden relative">
               {images.map((image, index) => (
                 <img
                   key={index}
-                  src={image}
+                  src={image.src} // Corrected this to image.src
                   alt={`Image ${index + 1}`}
-                  className={`w-full h-full object-cover object-center transition-opacity duration-1000 absolute top-0 left-0 ${index === currentImage ? 'opacity-100' : 'opacity-0'}`}
+                  className={`w-full h-full object-cover object-center transition-opacity duration-1000 absolute top-0 left-0 ${
+                    index === currentImage ? 'opacity-100' : 'opacity-0'
+                  }`}
                 />
               ))}
             </div>
@@ -55,19 +70,24 @@ export default function HeroSection() {
         </div>
 
         {/* Image Grid */}
-        <div className="grid grid-cols-3 gap-6">
-          {images.map((image, index) => (
-            <div key={index} className="relative w-full h-[300px]">
-              <img
-                src={image}
-                alt={`Additional Image ${index + 1}`}
-                className="w-full h-full object-cover object-center rounded-lg shadow-md"
-              />
+        <section id="gallery" className="py-12 md:py-20 bg-white">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 md:mb-16 text-blue-900">Image Gallery</h2>
+            
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+              {images.map((img, index) => (
+                <div key={index} className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
+                  <img 
+                    src={img.src} // Corrected this to img.src
+                    alt={`Gallery Image ${index + 1}`}
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>
+        </section>
       </div>
     </section>
   );
 }
-
