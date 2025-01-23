@@ -38,7 +38,7 @@ export default function ContactSection() {
               <Mail className="w-8 h-8 text-blue-600" />
               <div>
                 <h3 className="font-bold text-lg">Email</h3>
-                <a href="mailto:contact@example.com" className="text-blue-600 hover:underline">
+                <a href="mailto:srikanthrathnam@gmail.com" className="text-blue-600 hover:underline">
                   srikantrathnam@gmail.com
                 </a>
               </div>
