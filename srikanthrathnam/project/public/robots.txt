@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://bheemsociety.org/sitemap.xml
+Sitemap: https://srikanthrathnam.org/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 10
