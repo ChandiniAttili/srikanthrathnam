@@ -13,6 +13,16 @@ const images = [
   { src: '/m10.jpeg' },
   { src: '/m11.jpeg' },
   { src: '/m12.jpeg' },
+  { src: '/s1.jpeg' },
+  { src: '/s2.jpeg' },
+  { src: '/s4.jpeg' },
+  { src: '/s5.jpeg' },
+  { src: '/s6.jpeg' },
+  { src: '/s7.jpeg' },
+  { src: '/s8.jpeg' },
+  { src: '/s9.jpeg' },
+  { src: '/s10.jpeg' },
+  
 ];
 
 export default function MissionVisionSection() {

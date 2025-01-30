@@ -29,7 +29,43 @@ const images = [
     src: '/v5.jpeg',
   },
   {
-    src: '/v1.jpeg',
+    src: '/v6.jpeg',
+  },
+  {
+    src: '/t1.jpeg',
+  },
+  {
+    src: '/t2.jpeg',
+  },
+  {
+    src: '/t3.jpeg',
+  },
+  {
+    src: '/t4.jpeg',
+  },
+  {
+    src: '/t5.jpeg',
+  },
+  {
+    src: '/t6.jpeg',
+  },
+  {
+    src: '/t7.jpeg',
+  },
+  {
+    src: '/t8.jpeg',
+  },
+  {
+    src: '/t9.jpeg',
+  },
+  {
+    src: '/t10.jpeg',
+  },
+  {
+    src: '/t11.jpeg',
+  },
+  {
+    src: '/t12.jpeg',
   },
 ];
 

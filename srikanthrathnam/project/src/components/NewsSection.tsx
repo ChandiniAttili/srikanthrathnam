@@ -29,6 +29,15 @@ export default function NewsSection() {
       content:"MLC Dandepu Vital congratulated Ratnam Srikant, appointed as the Telangana State SC Wing Convenor by TPCC leadership."
 
     },
+    {
+      src: "/n01.jpeg",
+      content:"A free training program for women was launched in Sanpoor (Srirampur), Mancherial district, under the auspices of the Blaze Men Welfare Society. The program offers courses in stitching, tailoring, fashion designing, and beautician skills to help women become self-employed. Local officials and dignitaries attended and supported the initiative."
+
+    },
+    {
+      src: "/n02.jpeg",
+      content:"On February 6, the District Employment Officer, Venkataramana, emphasized that women would benefit from self-employment opportunities through stitching training. The vocational training courses, organized by the Blaze Men Welfare Society, were inaugurated in Naspur Colony. Local leaders, including Counselor Agalu Duty Raju, former MPTC Penchala Srilatha, and others, attended the event to support the initiative."
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
