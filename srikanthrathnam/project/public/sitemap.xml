@@ -1,33 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://srikanthrathnam.org/</loc>
     <lastmod>2024-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://srikanthrathnam.org/img1.jpeg</image:loc>
+      <image:caption>Homepage Banner of Srikanth Rathnam's Website</image:caption>
+      <image:title>Homepage Banner</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://srikanthrathnam.org/about/</loc>
     <lastmod>2024-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://srikanthrathnam.org/img2.jpeg</image:loc>
+      <image:caption>About Srikanth Rathnam - Founder of Bheem Society</image:caption>
+      <image:title>About Srikanth Rathnam</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://srikanthrathnam.org/services/</loc>
     <lastmod>2024-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://srikanthrathnam.org/img3.jpeg</image:loc>
+      <image:caption>Services Provided by Srikanth Rathnam</image:caption>
+      <image:title>Our Services</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://srikanthrathnam.org/jobs/</loc>
     <lastmod>2024-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://srikanthrathnam.org/img4.jpeg</image:loc>
+      <image:caption>Job Opportunities at Srikanth Rathnam's Organization</image:caption>
+      <image:title>Jobs</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://srikanthrathnam.org/contact/</loc>
     <lastmod>2024-03-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://srikanthrathnam.org/img5.jpeg</image:loc>
+      <image:caption>Contact Srikanth Rathnam</image:caption>
+      <image:title>Contact</image:title>
+    </image:image>
   </url>
 </urlset>
