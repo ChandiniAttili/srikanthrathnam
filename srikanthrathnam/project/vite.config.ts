@@ -1,15 +1,11 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
+  root: '.', // Ensure the root is set to the project directory
   build: {
-    outDir: 'dist', // Make sure output directory is correctly specified
+    outDir: 'dist',
     rollupOptions: {
-      input: '/index.html', // Ensure that Vite is correctly processing the entry file
+      input: './index.html', // Ensure this points to the correct HTML file
     },
   },
 });
