@@ -68,7 +68,7 @@ export default function HeroSection() {
 
           {/* Right Side Image Carousel */}
           <div className="lg:w-1/2 relative mb-6">
-            <div className="w-full max-w-[550px] aspect-square mx-auto rounded-lg border-4 border-orange-500 shadow-lg overflow-hidden relative">
+            <div className="w-full max-w-[550px] aspect-square mx-auto rounded-lg border-4 border-red-500 shadow-lg overflow-hidden relative">
               {images.map((image, index) => (
                 <img
                   key={index}
