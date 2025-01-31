@@ -12,7 +12,7 @@ const issues = [
     title: 'Healthcare Access',
     description: 'Improving healthcare infrastructure and making quality medical care affordable and accessible.',
     Icon: Heart,
-    image: '/img01.jpg',
+    image: '/im2.jpg',
   },
   {
     title: 'Infrastructure Development',

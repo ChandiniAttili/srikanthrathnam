@@ -66,4 +66,3 @@ export default function Header({ activeSection }: { activeSection: string }) {
     </header>
   );
 }
-
