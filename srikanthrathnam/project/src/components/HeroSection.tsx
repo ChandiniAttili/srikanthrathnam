@@ -1,26 +1,13 @@
-
 import { useState, useEffect } from "react";
 
 // Images from the public folder
 const images = [
-  {
-    src: "/img15.jpeg",
-  },
-  {
-    src: "/img21.jpeg",
-  },
-  {
-    src: "/img13.jpeg",
-  },
-  {
-    src: "/img14.jpeg",
-  },
-  {
-    src: "/img11.jpeg",
-  },
-  {
-    src: "/img16.jpeg",
-  },
+  { src: "/img15.jpeg" },
+  { src: "/img21.jpeg" },
+  { src: "/img13.jpeg" },
+  { src: "/img14.jpeg" },
+  { src: "/img11.jpeg" },
+  { src: "/img16.jpeg" },
 ];
 
 export default function HeroSection() {
@@ -64,8 +51,8 @@ export default function HeroSection() {
           </div>
 
           {/* Right Side Image Carousel */}
-          <div className="lg:w-1/2 relative mb-6">
-            <div className="w-full max-w-[550px] aspect-square mx-auto rounded-lg border-4 border-red-500 shadow-lg overflow-hidden relative">
+          <div className="lg:w-1/2 w-full relative mb-6">
+            <div className="w-full max-w-[350px] sm:max-w-[450px] md:max-w-[550px] mx-auto rounded-lg border-4 border-red-500 shadow-lg overflow-hidden relative aspect-square">
               {images.map((image, index) => (
                 <img
                   key={index}
