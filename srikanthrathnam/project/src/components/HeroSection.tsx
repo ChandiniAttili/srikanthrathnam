@@ -21,9 +21,6 @@ const images = [
   {
     src: "/img16.jpeg",
   },
-  {
-    src:"/s3.jpeg",
-  }
 ];
 
 export default function HeroSection() {
